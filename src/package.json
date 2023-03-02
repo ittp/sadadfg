@@ -17,7 +17,10 @@
     "use-sync-external-store": "1.2.0"
   },
   "main": "/index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "latest",
+    "process": "latest"
+  },
   "keywords": [],
   "name": "camera-stream",
   "description": ""

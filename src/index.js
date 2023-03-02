@@ -1,3 +1,9 @@
+
+import { SandpackRunner } from "@codesandbox/sandpack-react";
+
+const CustomSandpack = () => <SandpackRunner />;
+
+
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
